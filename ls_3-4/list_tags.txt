@@ -1,0 +1,19 @@
+<br>, <i>
+
+<article>, <cite>, <aside>, <abbr> === <acronym>
+
+<header>, <nav>, <section>, <footer>,
+
+// show html validators W3C
+
+// show logic tags
+
+// sup, sub
+
+// intro styles
+
+// attributes class & id
+
+// lists
+
+// margin padding

@@ -1,0 +1,18 @@
+ 
+ padding
+ 
+ border
+ 
+ margin
+
+ стилізація списків
+  list-style-image,
+  list-style-type, 
+  list-style-position
+
+медіа
+  <img/> <audio/> <video/>
+
+тег а
+
+background-image, background-repeat, background-position
