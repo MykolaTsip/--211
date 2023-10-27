@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .tb3 {
+            background-color: aqua;
+            border: 2px solid red;
+        }
+
+        .tb3 th {
+            font-size: 22px;
+        }
+
+        .tb3 td {
+            padding: 5px;
+        }
+
+        .tb3 tfoot th:first-child:hover {
+            background-color: bisque;
+        }
+
+        .tb3:hover {
+            background-color: blueviolet;
+        }
+
+    </style>
+    
+    <table border="1">
+        <tr>
+           <td>1</td> 
+           <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <!-- <td>#</td>
+                <td>Name</td>
+                <td>Price</td> -->
+                <th height="35">#</th>
+                <th width="100">Name</th>
+                <th width="100">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="end" height="35" valign="bottom">
+                    1
+                </td>
+                <td>
+                    Xiomi
+                </td>
+                <td>
+                    10 000$
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    2
+                </td>
+                <td>
+                    Asus
+                </td>
+                <td>
+                    12 000$
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th height="30">
+                    Summary: 
+                </th>
+                <th>
+                    2 Models
+                </th>
+                <th>
+                    22 000$
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+
+    <table border="1" class="tb3">
+        <thead>
+            <th>#</th>
+            <th>Name</th>
+            <th colspan="2">Price</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td rowspan="3">
+                    Xiomi
+                </td>
+                <td>
+                   from 10 000$ 
+                </td>
+                <td>
+                    to 20 000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <!-- <td rowspan="2">
+                    Asus
+                </td> -->
+                <td>
+                   from 12 000$
+                </td>
+                <td>
+                   to 12 000$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <!-- <td>
+                    Lenovo
+                </td> -->
+                <td>
+                   from 11 000$
+                </td>
+                <td>
+                   to 12 000$
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>
+                    Summary: 
+                </th>
+                <th>
+                    2 Models
+                </th>
+                <th>
+                    32 000$
+                </th>
+                <th>
+                    44 000$
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

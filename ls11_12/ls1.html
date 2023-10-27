@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .kb {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+
+            /* margin-top: 100px;
+            margin-left: 100px; */
+
+            position: relative;
+            /* top: 100px; */
+            /* left: 100px; */
+            right: 10px;
+            bottom: 10px;
+
+            z-index: 1;
+        }
+
+        .kb2 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+
+            z-index: 10;
+        }
+
+        .kb3 {
+            width: 100px;
+            height: 100px;
+            background-color: aqua; 
+
+            position: absolute;
+            top: 5px;
+            right: 10px;
+        }
+
+
+        .kb4 {
+            width: 100px;
+            height: 100px;
+            background-color: black; 
+
+            position: fixed;
+            left: 20px;
+            top: 20px;
+        }
+
+
+        .user {
+            height: 300px;
+            background-color: silver;
+
+            position: relative;
+        }
+
+        .read {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+
+
+            /* position: static; == position: unset; ==  position: initial; */
+            /* position: sticky;
+            position: unset;
+            position: inherit;
+            position: initial; */
+        }
+    </style>
+
+    <hr>
+    relaative
+    <div class="kb">
+    </div>
+
+    <div class="kb2"></div>
+    <span>sdffmsdf</span>
+    <div class="kb2"></div>
+
+    <hr>
+    absolute
+    <div class="kb3"></div>
+    <span>fffff</span>
+    <div class="kb2"></div>
+
+    <hr>
+    fixed
+    <div class="kb4"></div>
+    <div>fffff</div>
+    <div class="kb2"></div>
+    <br>
+    <div class="kb2"></div>
+    <br>
+    <div class="kb2"></div>
+
+    <hr>
+
+    <div class="user">
+        <h1>User 1</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore perspiciatis, 
+            dolorum asperiores dignissimos itaque, iste velit iure fugiat esse quas distinctio facere sit 
+            maxime voluptatibus cum ea accusamus nulla?
+        </p>
+        <p class="read">
+            Read More
+        </p>
+    </div>
+
+</body>
+</html>

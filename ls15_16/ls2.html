@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .fl {
+          display: flex;
+          /* flex-direction: column; */
+          /* flex-direction: column-reverse; */
+          /* flex-direction: row; */
+          /* flex-direction: row-reverse; */
+
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        .k {
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            border: 2px solid red;
+        }
+
+        .a {
+            order: 3;
+        }
+
+        .b {
+            order: 1;
+        }
+
+        .c {
+            order: 4;
+        }
+
+        .d {
+            order: 2;
+        }
+    </style>
+
+
+    <div class="fl">
+        <div class="k a">1</div>
+        <div class="k b">2</div>
+        <div class="k c">3</div>
+        <div class="k d">4</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* body {
+    padding: 10px;
+    background-color: antiquewhite;
+} */
+
+.wrapper {
+    height: 85vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+.b1 {
+    height: 60vh;
+    width: 25%;
+    background-color: red;
+}
+
+.b2 {
+    height: 60vh;
+    width: 25%;
+    background-color: green;
+}
+
+.b3 {
+    height: 60vh;
+    width: 25%;
+    background-color: blue;
+}
+
+.b4 {
+    height: 60vh;
+    width: 25%;
+    background-color: black;
+}
